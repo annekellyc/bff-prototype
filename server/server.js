@@ -2,9 +2,7 @@ const fastify = require('fastify')({
     logger: true
 })
 
-fastify.get('/', (request, reply) => {
-    reply.send({ hello: 'world'} )
-})
+fastify.register(require('fastify-healthcheck'))
 
 fastify.listen(3000, (err, address) => {
     if(err) throw err
