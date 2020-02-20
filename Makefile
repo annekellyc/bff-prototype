@@ -19,8 +19,7 @@ docker-remove: docker-stop
 docker-push:
 	docker push quay.io/acosta/bff-prototype
 
-docker-setup: 
-	login-quayio docker-stop docker-remove docker-build docker-push docker-run
+docker-setup: login-quayio docker-stop docker-remove docker-build docker-push docker-run
 
 example-test:
 	npm install-test
