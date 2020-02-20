@@ -21,5 +21,5 @@ docker-push:
 
 docker-setup: login-quayio docker-stop docker-remove docker-build docker-push docker-run
 
-unit-test:
-	npm test
+example-test:
+	npm install-test

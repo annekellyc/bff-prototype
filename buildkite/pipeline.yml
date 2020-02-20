@@ -1,5 +1,5 @@
 steps:
-    - command: echo "Hello!"
+    - command: "make example-test"
       label: "Example Test"
     
     - wait
