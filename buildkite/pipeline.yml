@@ -1,7 +1,9 @@
 steps:
+    - command: echo "Hello!"
+      label: "Example Test"
+    
+    - wait
+
     - command: "make docker-setup"
       label: "Build Docker Container"
       branches: "master"
-
-    - command: echo "Hello!"
-      label: "Example Test"
