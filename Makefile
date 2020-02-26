@@ -1,5 +1,5 @@
 login-quayio:
-	docker login quay.io
+	docker login -u="acosta+bff_prototype_robot" -p="GR8OSPI9X8VZJKDY4EHRH6DWYRKCFQ2QAGVMXT252WYMG8O44ICTXY3Y81RDUMX3" quay.io
 
 docker-build:
 	docker build -t quay.io/acosta/bff-prototype .
