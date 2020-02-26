@@ -23,3 +23,6 @@ docker-setup: login-quayio docker-stop docker-remove docker-build docker-push do
 
 example-test:
 	npm install-test
+
+example-test-1:
+	npm install-test
